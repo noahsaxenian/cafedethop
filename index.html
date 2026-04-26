@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe de Throp</title>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f2ece0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+    }
+
+    .container {
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .thank-you {
+      font-family: 'Caveat', cursive;
+      font-size: clamp(2.8rem, 10vw, 4.5rem);
+      font-weight: 600;
+      color: #2a1f14;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+      transform: rotate(-1.5deg);
+      display: inline-block;
+    }
+
+    /* Replace this whole div with: <img src="poster.png" alt="Cafe de Throp"> */
+    .poster {
+      width: 100%;
+      aspect-ratio: 3/4;
+      background: #ddd5c4;
+      border: 2px solid #b8a98e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Caveat', cursive;
+      font-size: 1.3rem;
+      color: #9e8a6f;
+      transform: rotate(0.8deg);
+      box-shadow: 4px 4px 0 #c4b49e;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="thank-you">thank you ♡</span>
+
+    <!-- Replace this div with <img src="poster.jpg" alt="Cafe de Throp" style="width:100%;transform:rotate(0.8deg);box-shadow:4px 4px 0 #c4b49e;"> -->
+    <div class="poster">poster.jpg</div>
+  </div>
+</body>
+</html>
